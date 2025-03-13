@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student form</title>
+</head>
+<body>
+    <main>
+        <div class="container" style="text-align: center" id="form">
+            <img src="academic.jpg" alt="Not IMP" height="200">
+            <H3>Please fill the form</H3>
+            <form action="C:\Users\APPLE\Desktop\Backend\HTML/form.py" >
+                Username
+                <input type="text" name="username" placeholder="enter username">
+                <br><br>
+                Password
+                <input type="password" name="Password" placeholder="enter password">
+                <br><br>
+                Class
+                <input type="radio" value="XI" name="class">XI
+                <input type="radio" value="XII" name="class">XII
+                <br><br>
+                <u>Select subjects</u><br>
+                Mathematics<input type="checkbox" value="math" name="math">
+                Physics<input type="checkbox" value="phy" name="phy">
+                Chemistry<input type="checkbox" value="chem" name="chem">
+                Biology<input type="checkbox" value="bio" name="bio">
+                <br><br>
+                Select city<br>
+                <select name="city">
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="nashik">Nashik</option>
+                </select>
+                <br><br>
+                <B>Feedback</B><br>
+                <textarea rows="5" cols="30" value="feedback" placeholder="please write feedback">
+                </textarea>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
